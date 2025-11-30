@@ -9,7 +9,7 @@
                 </label>
 
                 <div class="form-input-group">
-                    <input type="text" name="name" id="inName" class="form-input" placeholder="Rafaela Santos" />
+                    <input type="text" name="name" id="inName" class="form-input" placeholder="Rafaela Santos" required />
 
                     <div class="form-input-icon">
                         <User color="#fff" />
@@ -24,7 +24,9 @@
 
                 <div class="form-input-group">
                     <input type="email" name="email" id="inEmail" class="form-input"
-                        placeholder="rafaela@example.com" />
+                    placeholder="rafaela@example.com" 
+                    required
+                    />
 
                     <div class="form-input-icon">
                         <Mail color="#fff" />
@@ -39,7 +41,9 @@
 
                 <div class="form-input-group">
                     <input type="password" name="password" id="inPassword" class="form-input"
-                        placeholder="***************" />
+                    placeholder="***************" 
+                    required
+                    />
 
                     <div class="form-input-icon">
                         <LockKeyhole color="#fff" />
@@ -54,7 +58,9 @@
 
                 <div class="form-input-group">
                     <input type="password" name="confirmPassword" id="inConfirmPassword" class="form-input"
-                        placeholder="***************" />
+                    placeholder="***************"
+                    required
+                    />
 
                     <div class="form-input-icon">
                         <LockKeyhole color="#fff" />

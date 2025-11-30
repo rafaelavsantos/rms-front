@@ -10,7 +10,9 @@
 
                 <div class="form-input-group">
                     <input type="email" name="email" id="inEmail" class="form-input"
-                        placeholder="rafaela@example.com" />
+                    placeholder="rafaela@example.com" 
+                    required
+                    />
 
                     <div class="form-input-icon">
                         <Mail color="#fff" />
@@ -26,7 +28,9 @@
 
                     <div class="form-input-group">
                         <input type="password" name="password" id="inPassword" class="form-input"
-                            placeholder="***************" />
+                        placeholder="***************" 
+                        required
+                        />
 
                         <div class="form-input-icon">
                             <LockKeyhole color="#fff" />
@@ -41,7 +45,9 @@
 
                     <div class="form-input-group">
                         <input type="password" name="confirmPassword" id="inConfirmPassword" class="form-input"
-                            placeholder="***************" />
+                        placeholder="***************" 
+                        required
+                        />
 
                         <div class="form-input-icon">
                             <LockKeyhole color="#fff" />
@@ -57,7 +63,7 @@
 
         <div class="auth-create-account">
             You remember your password? 
-            <router-link to="/create-user" class="auth-link">Log in</router-link>
+            <router-link :to="{name: 'login'}" class="auth-link">Log in</router-link>
         </div>
     </div>
 </template>

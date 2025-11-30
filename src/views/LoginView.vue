@@ -1,7 +1,7 @@
 <template>
     <div class="auth-layout">
         <div class="auth-content">
-            <h1>SGL</h1>
+            <h1>RMS</h1>
             <RouterView />
         </div>
 

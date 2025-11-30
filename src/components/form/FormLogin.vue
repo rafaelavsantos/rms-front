@@ -10,7 +10,9 @@
 
                 <div class="form-input-group">
                     <input type="email" name="email" id="inEmail" class="form-input"
-                        placeholder="rafaela@example.com" />
+                    placeholder="rafaela@example.com" 
+                    required
+                    />
 
                     <div class="form-input-icon">
                         <Mail color="#fff" />
@@ -25,7 +27,9 @@
 
                 <div class="form-input-group">
                     <input type="password" name="password" id="inPassword" class="form-input"
-                        placeholder="***************" />
+                    placeholder="***************" 
+                    required
+                    />
 
                     <div class="form-input-icon">
                         <LockKeyhole color="#fff" />
@@ -51,9 +55,14 @@
 
 <script setup>
 import { LockKeyhole, Mail } from 'lucide-vue-next';
+import { useRouter } from 'vue-router';
+
+const router = useRouter();
 
 const loginAuth = () => {
     console.log('Realizando login');
+
+    router.push('/dashboard')
 }
 
 </script>
